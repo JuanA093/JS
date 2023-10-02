@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>EjercicioType</title>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>FORMULARIO</h1>
+        <form action="" method="post" id="formulario" class="formulario">
+            <input type="text" id="txtId" placeholder="id">
+            <input type="text" id="txtNombre" placeholder="nombre">
+            <input type="text" id="nbCantidad" placeholder="cantidad">
+            <input type="number" id="nbPrecio" placeholder="precio">
+            <input type="text" id="txtDescripcion" placeholder="descripcion">
+            <input type="button" value="Agregar" onclick="agregarElemento();">
+        </form>
+    </div>
+    <div class="almacenamiento-formulario">
+        <table id = "tabla">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>nombre</th>
+                    <th>cantidad</th>
+                    <th>precio</th>
+                    <th>descripcion</th>
+                </tr>
+            </thead>
+            <tbody id="contenidoTabla">
+
+            </tbody>
+        </table>
+        <button id="limpiar" class="limpiarDatos">Limpiar datos</button>
+    </div>
+    <script src="./function.js"></script>    
+</body>
+</html>
