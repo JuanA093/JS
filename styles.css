@@ -38,16 +38,13 @@ table{
 
 }
 
-.limpiarDatos{
-    width: 60px;
-    height: 40px;
-    position: absolute;
-    margin-top: -5%;
-    margin-left: 89%;
+
+.eliminar{
+    background-color: rgb(223, 236, 173);
 }
 
-.limpiarDatos:hover{
-
+.eliminar:hover{
+    font-weight: bold;
     background-color: red;
 }
 /* *\
